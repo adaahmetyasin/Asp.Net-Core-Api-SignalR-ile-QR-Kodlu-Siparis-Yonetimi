@@ -1,0 +1,17 @@
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\bin\Debug\net9.0\SignalR.BusinessLayer.deps.json
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\bin\Debug\net9.0\SignalR.BusinessLayer.dll
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\bin\Debug\net9.0\SignalR.BusinessLayer.pdb
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\bin\Debug\net9.0\SignalR.DataAccessLayer.dll
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\bin\Debug\net9.0\SignalR.EntityLayer.dll
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\bin\Debug\net9.0\SignalR.DataAccessLayer.pdb
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\bin\Debug\net9.0\SignalR.EntityLayer.pdb
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\obj\Debug\net9.0\SignalR.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\obj\Debug\net9.0\SignalR.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\obj\Debug\net9.0\SignalR.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\obj\Debug\net9.0\SignalR.BusinessLayer.AssemblyInfo.cs
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\obj\Debug\net9.0\SignalR.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\obj\Debug\net9.0\SignalR..CCF1CBCC.Up2Date
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\obj\Debug\net9.0\SignalR.BusinessLayer.dll
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\obj\Debug\net9.0\refint\SignalR.BusinessLayer.dll
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\obj\Debug\net9.0\SignalR.BusinessLayer.pdb
+C:\Users\ada\source\repos\SignalRProject\SignalR.BusinessLayer\obj\Debug\net9.0\ref\SignalR.BusinessLayer.dll
