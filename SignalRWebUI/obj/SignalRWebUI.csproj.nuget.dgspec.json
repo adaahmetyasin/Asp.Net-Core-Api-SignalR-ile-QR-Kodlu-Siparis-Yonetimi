@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ada\\source\\repos\\SignalRProject\\SignalRWebUI\\SignalRWebUI.csproj": {}
+    "C:\\Users\\ada\\Documents\\GitHub\\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\\SignalRWebUI\\SignalRWebUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ada\\source\\repos\\SignalRProject\\SignalRWebUI\\SignalRWebUI.csproj": {
+    "C:\\Users\\ada\\Documents\\GitHub\\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\\SignalRWebUI\\SignalRWebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ada\\source\\repos\\SignalRProject\\SignalRWebUI\\SignalRWebUI.csproj",
+        "projectUniqueName": "C:\\Users\\ada\\Documents\\GitHub\\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\\SignalRWebUI\\SignalRWebUI.csproj",
         "projectName": "SignalRWebUI",
-        "projectPath": "C:\\Users\\ada\\source\\repos\\SignalRProject\\SignalRWebUI\\SignalRWebUI.csproj",
+        "projectPath": "C:\\Users\\ada\\Documents\\GitHub\\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\\SignalRWebUI\\SignalRWebUI.csproj",
         "packagesPath": "C:\\Users\\ada\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ada\\source\\repos\\SignalRProject\\SignalRWebUI\\obj\\",
+        "outputPath": "C:\\Users\\ada\\Documents\\GitHub\\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\\SignalRWebUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

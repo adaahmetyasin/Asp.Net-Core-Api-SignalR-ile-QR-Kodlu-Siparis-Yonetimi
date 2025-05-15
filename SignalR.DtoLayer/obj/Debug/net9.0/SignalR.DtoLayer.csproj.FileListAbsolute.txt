@@ -9,3 +9,15 @@ C:\Users\ada\source\repos\SignalRProject\SignalR.DtoLayer\obj\Debug\net9.0\Signa
 C:\Users\ada\source\repos\SignalRProject\SignalR.DtoLayer\obj\Debug\net9.0\refint\SignalR.DtoLayer.dll
 C:\Users\ada\source\repos\SignalRProject\SignalR.DtoLayer\obj\Debug\net9.0\SignalR.DtoLayer.pdb
 C:\Users\ada\source\repos\SignalRProject\SignalR.DtoLayer\obj\Debug\net9.0\ref\SignalR.DtoLayer.dll
+C:\Users\ada\Documents\GitHub\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\SignalR.DtoLayer\bin\Debug\net9.0\SignalR.DtoLayer.deps.json
+C:\Users\ada\Documents\GitHub\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\SignalR.DtoLayer\bin\Debug\net9.0\SignalR.DtoLayer.dll
+C:\Users\ada\Documents\GitHub\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\SignalR.DtoLayer\bin\Debug\net9.0\SignalR.DtoLayer.pdb
+C:\Users\ada\Documents\GitHub\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\SignalR.DtoLayer\obj\Debug\net9.0\SignalR.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ada\Documents\GitHub\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\SignalR.DtoLayer\obj\Debug\net9.0\SignalR.DtoLayer.AssemblyInfoInputs.cache
+C:\Users\ada\Documents\GitHub\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\SignalR.DtoLayer\obj\Debug\net9.0\SignalR.DtoLayer.AssemblyInfo.cs
+C:\Users\ada\Documents\GitHub\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\SignalR.DtoLayer\obj\Debug\net9.0\SignalR.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\ada\Documents\GitHub\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\SignalR.DtoLayer\obj\Debug\net9.0\SignalR.DtoLayer.sourcelink.json
+C:\Users\ada\Documents\GitHub\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\SignalR.DtoLayer\obj\Debug\net9.0\SignalR.DtoLayer.dll
+C:\Users\ada\Documents\GitHub\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\SignalR.DtoLayer\obj\Debug\net9.0\refint\SignalR.DtoLayer.dll
+C:\Users\ada\Documents\GitHub\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\SignalR.DtoLayer\obj\Debug\net9.0\SignalR.DtoLayer.pdb
+C:\Users\ada\Documents\GitHub\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\SignalR.DtoLayer\obj\Debug\net9.0\ref\SignalR.DtoLayer.dll

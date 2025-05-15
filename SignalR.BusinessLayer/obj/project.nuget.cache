@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xlnPkdB6YX8=",
+  "dgSpecHash": "8DbzE09gsOg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ada\\source\\repos\\SignalRProject\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\ada\\Documents\\GitHub\\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\\SignalR.BusinessLayer\\SignalR.BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ada\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ada\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

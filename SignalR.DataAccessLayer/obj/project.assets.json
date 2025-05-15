@@ -1599,6 +1599,16 @@
           }
         }
       },
+      "SignalR.DtoLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/SignalR.DtoLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SignalR.DtoLayer.dll": {}
+        }
+      },
       "SignalR.EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -4712,6 +4722,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "SignalR.DtoLayer/1.0.0": {
+      "type": "project",
+      "path": "../SignalR.DtoLayer/SignalR.DtoLayer.csproj",
+      "msbuildProject": "../SignalR.DtoLayer/SignalR.DtoLayer.csproj"
+    },
     "SignalR.EntityLayer/1.0.0": {
       "type": "project",
       "path": "../SignalR.EntityLayer/SignalR.EntityLayer.csproj",
@@ -4724,6 +4739,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 9.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.4",
+      "SignalR.DtoLayer >= 1.0.0",
       "SignalR.EntityLayer >= 1.0.0"
     ]
   },
@@ -4734,11 +4750,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ada\\source\\repos\\SignalRProject\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\ada\\Documents\\GitHub\\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj",
       "projectName": "SignalR.DataAccessLayer",
-      "projectPath": "C:\\Users\\ada\\source\\repos\\SignalRProject\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj",
+      "projectPath": "C:\\Users\\ada\\Documents\\GitHub\\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\\SignalR.DataAccessLayer\\SignalR.DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\ada\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ada\\source\\repos\\SignalRProject\\SignalR.DataAccessLayer\\obj\\",
+      "outputPath": "C:\\Users\\ada\\Documents\\GitHub\\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\\SignalR.DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4759,8 +4775,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\ada\\source\\repos\\SignalRProject\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\ada\\source\\repos\\SignalRProject\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj"
+            "C:\\Users\\ada\\Documents\\GitHub\\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj": {
+              "projectPath": "C:\\Users\\ada\\Documents\\GitHub\\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj"
+            },
+            "C:\\Users\\ada\\Documents\\GitHub\\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\ada\\Documents\\GitHub\\Asp.Net-Core-Api-SignalR-ile-QR-Kodlu-Siparis-Yonetimi\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj"
             }
           }
         }
