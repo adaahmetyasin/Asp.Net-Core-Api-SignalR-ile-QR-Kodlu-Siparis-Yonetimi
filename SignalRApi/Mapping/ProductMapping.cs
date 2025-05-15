@@ -10,6 +10,7 @@ namespace SignalRApi.Mapping
             CreateMap<SignalR.EntityLayer.Entities.Product, SignalR.DtoLayer.ProductDto.CreateProductDto>().ReverseMap();
             CreateMap<SignalR.EntityLayer.Entities.Product, SignalR.DtoLayer.ProductDto.UpdateProductDto>().ReverseMap();
             CreateMap<SignalR.EntityLayer.Entities.Product, SignalR.DtoLayer.ProductDto.GetProductDto>().ReverseMap();
+            CreateMap<SignalR.EntityLayer.Entities.Product, SignalR.DtoLayer.ProductDto.ResultProductWithCategory>().ReverseMap();
         }
     }
 }
