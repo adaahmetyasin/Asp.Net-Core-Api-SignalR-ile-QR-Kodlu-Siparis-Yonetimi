@@ -49,7 +49,7 @@ namespace SignalRApi.Controllers
             return Ok("Category Deleted");
         }
 
-        [HttpGet("GetCategory")]
+        [HttpGet("{id}")]
 
         public IActionResult GetCategory(int id)
         {
