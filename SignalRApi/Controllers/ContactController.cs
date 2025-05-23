@@ -45,7 +45,7 @@ namespace SignalRApi.Controllers
             return Ok("Contact Added");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
 
         public IActionResult DeleteContact(int id)
         {
@@ -54,7 +54,7 @@ namespace SignalRApi.Controllers
             return Ok("Contact Deleted");
         }
 
-        [HttpGet("GetContact")]
+        [HttpGet("{id}")]
 
         public IActionResult GetContact(int id)
         {
