@@ -1,0 +1,12 @@
+*.dll
+*.pdb
+*.cache
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.config
+*.vsidx
+*.json
+*.db
