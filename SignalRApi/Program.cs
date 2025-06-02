@@ -7,6 +7,18 @@ using SignalR.DataAccessLayer.EntityFramework;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy",
+        builder =>
+        {
+            builder.SetIsOriginAllowed((host) => true)
+                          .AllowAnyMethod()
+                          .AllowAnyHeader()
+                          .AllowCredentials();
+        });
+});
+builder.Services.AddSignalR();
 // Add services to the container.
 builder.Services.AddDbContext<SignalRContext>();
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
@@ -61,6 +73,8 @@ if (app.Environment.IsDevelopment())
         c.RoutePrefix = string.Empty;
     });
 }
+
+app.UseCors("CorsPolicy");
 
 app.UseHttpsRedirection();
 
