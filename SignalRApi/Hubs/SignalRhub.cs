@@ -1,6 +1,8 @@
-﻿namespace SignalRApi.Hubs
+﻿using Microsoft.AspNetCore.SignalR;
+
+namespace SignalRApi.Hubs
 {
-    public class SignalRhub
+    public class SignalRhub : Hub
     {
     }
 }
