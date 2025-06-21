@@ -30,6 +30,18 @@ namespace SignalR.DataAccessLayer.EntityFramework
             using var context = new SignalRContext();
             return context.Products.Count();
         }
+
+        public int ProductCountByCategoryNameDrink()
+        {
+            using var context = new SignalRContext();
+            return context.Products.Count(x => x.Category.CategoryName == "İçecek");
+        }
+
+        public int ProductCountByCategoryNameHamburger()
+        {
+            using var context = new SignalRContext();
+            return context.Products.Count(x => x.Category.CategoryName == "Hamburger");
+        }
     }
     
     
