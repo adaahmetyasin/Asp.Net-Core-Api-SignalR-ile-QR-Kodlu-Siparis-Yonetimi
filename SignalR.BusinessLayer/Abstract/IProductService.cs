@@ -13,5 +13,9 @@ namespace SignalR.BusinessLayer.Abstract
         int TProductCount();
         int TProductCountByCategoryNameDrink();
         int TProductCountByCategoryNameHamburger();
+
+        decimal TProductPriceAvg();
+        string TProductNameByMaxPrice();
+        string TProductNameByMinPrice();
     }
 }
