@@ -4,17 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SignalR.BusinessLayer.Abstract;
+using SignalR.DataAccessLayer.Abstract;
 using SignalR.EntityLayer.Entities;
 
 namespace SignalR.BusinessLayer.Concrete
 {
     public class OrderManager : IOrderService
     {
-        private readonly IOrderService _orderService;
+        private readonly IOrderDal _orderDal;
 
-        public OrderManager(IOrderService orderService)
+        public OrderManager(IOrderDal orderDal)
         {
-            _orderService = orderService;
+            _orderDal = orderDal;
         }
 
         public void TDelete(Order t)
