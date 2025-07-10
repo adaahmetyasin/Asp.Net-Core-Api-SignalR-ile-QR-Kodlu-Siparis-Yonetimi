@@ -52,7 +52,7 @@
 											<h6>
 												@item.ProductPrice₺
 											</h6>
-											<a href="/Menu/Index/" onclick="showproductid(@item.ProductID)">
+											<a href="#" onclick="showproductid(@item.ProductID)">
 												<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
 												<g>
 												<g>
@@ -125,12 +125,6 @@
 
 	@await Component.InvokeAsync("_UILayoutFooterComponentPartial")
 	@await Component.InvokeAsync("_UILayoutScriptComponentPartial")
-	@* 	<script>
-		function showproductid(productid) {
-			localStorage.setItem("productid", productid);
-			window.location.href = "/Menu/Detail/";
-		}
-	</script> *@
 
 	<script>
 		function showproductid(value) {
@@ -140,12 +134,14 @@
 				data: {item: id},
 				contentType: 'json',
 				success: function () {
-					alert("Ürün ID'si: " + id + " başarıyla kaydedildi.");
+					swal("Seçilen Ürün ID:" + id , "Sepetinize Eklendi", "success");
 				},
 
 			})
 		}
 	</script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 
 </body>
 
