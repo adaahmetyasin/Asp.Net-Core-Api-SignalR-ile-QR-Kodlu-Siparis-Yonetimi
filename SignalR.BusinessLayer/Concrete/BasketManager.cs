@@ -18,7 +18,7 @@ namespace SignalR.BusinessLayer.Concrete
         }
         public void TDelete(Basket t)
         {
-            throw new NotImplementedException();
+            _basketDal.Delete(t);
         }
 
         public List<Basket> TGetAll()
@@ -33,7 +33,7 @@ namespace SignalR.BusinessLayer.Concrete
 
         public Basket TGetById(int id)
         {
-            throw new NotImplementedException();
+            return _basketDal.GetById(id);
         }
 
         public void TInsert(Basket t)
