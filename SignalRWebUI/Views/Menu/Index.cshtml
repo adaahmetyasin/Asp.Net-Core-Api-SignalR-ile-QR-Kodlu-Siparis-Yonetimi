@@ -131,6 +131,7 @@
 			var id = value;
 			$.ajax({
 				type: 'post',
+				url:	'/Menu/AddBasket/' + id,
 				data: {item: id},
 				contentType: 'json',
 				success: function () {
