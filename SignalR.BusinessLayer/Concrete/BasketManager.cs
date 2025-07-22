@@ -38,7 +38,7 @@ namespace SignalR.BusinessLayer.Concrete
 
         public void TInsert(Basket t)
         {
-            throw new NotImplementedException();
+            _basketDal.Insert(t);
         }
 
         public void TUpdate(Basket t)
