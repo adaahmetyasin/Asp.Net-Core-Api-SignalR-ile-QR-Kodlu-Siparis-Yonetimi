@@ -26,5 +26,11 @@ namespace SignalRApi.Controllers
             var count = _notificationService.TNotificationCountByStatusFalse();
             return Ok(count);
         }
+        [HttpGet("GetAllNotificationsByStatusFalse")]
+        public IActionResult GetAllNotificationsByStatusFalse()
+        {
+            var notifications = _notificationService.TGetAllNotificationsByStatusFalse();
+            return Ok(notifications);
+        }
     }
 }
