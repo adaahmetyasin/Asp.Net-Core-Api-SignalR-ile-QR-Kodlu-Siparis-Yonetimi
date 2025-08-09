@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using SignalRWebUI.Dtos.NotificationDto;
 using SignalRWebUI.Dtos.NotificationDtos;
 
 namespace SignalRWebUI.Controllers
@@ -51,7 +50,8 @@ namespace SignalRWebUI.Controllers
         public async Task<IActionResult> DeleteNotification(int id)
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.DeleteAsync($"https://localhost:7210/api/Notifications/{id}");
+            var responseMessage = await client.DeleteAsync($"https://localhost:7210/api/Notifications?id={id}");
+
             if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");

@@ -43,7 +43,7 @@ namespace SignalRApi.Controllers
                 Icon = createNotificationDto.Icon,
                 Description = createNotificationDto.Description,
                 Date = createNotificationDto.Date,
-                Status = createNotificationDto.Status
+                Status = false
             };
             _notificationService.TInsert(notification);
             return Ok("Notification created successfully.");
