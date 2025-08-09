@@ -38,7 +38,7 @@ namespace SignalR.BusinessLayer.Concrete
 
         public void TInsert(Notification t)
         {
-           _notificationDal.Insert(t);
+            _notificationDal.Insert(t);
         }
 
         public int TNotificationCountByStatusFalse()
@@ -50,5 +50,14 @@ namespace SignalR.BusinessLayer.Concrete
         {
             _notificationDal.Update(t);
         }
+        public void TNotificationStatusChangeToTrue(int id)
+        {
+            _notificationDal.NotificationStatusChangeToTrue(id);
+        }
+        public void TNotificationStatusChangeToFalse(int id)
+        {
+            _notificationDal.NotificationStatusChangeToFalse(id);
+        }
     }
 }
+
