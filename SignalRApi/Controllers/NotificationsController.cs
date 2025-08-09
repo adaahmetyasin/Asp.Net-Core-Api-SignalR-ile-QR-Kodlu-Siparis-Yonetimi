@@ -88,7 +88,7 @@ namespace SignalRApi.Controllers
             _notificationService.TUpdate(notification);
             return Ok("Notification updated successfully.");
         }
-        [HttpGet("ChangeStatusToFalse/{id}")]
+        [HttpGet("NotificationStatusChangeToFalse/{id}")]
         public IActionResult NotificationStatusChangeToFalse(int id)
         {
             var notification = _notificationService.TGetById(id);
@@ -99,7 +99,7 @@ namespace SignalRApi.Controllers
             _notificationService.TNotificationStatusChangeToFalse(id);
             return Ok("Notification status changed to false successfully.");
         }
-        [HttpGet("ChangeStatusToTrue/{id}")]
+        [HttpGet("NotificationStatusChangeToTrue/{id}")]
         public IActionResult NotificationStatusChangeToTrue(int id)
         {
             var notification = _notificationService.TGetById(id);
