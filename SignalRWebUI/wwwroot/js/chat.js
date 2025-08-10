@@ -2,7 +2,7 @@
 	.withUrl("https://localhost:7210/SignalRHub")
 	.build();
 
-document.getElementById("sendButton").disabled = true;
+document.getElementById("sendbutton").disabled = true;
 
 connection.on("ReceiveMessage", function (user, message) {
 	var currentTime = new Date();
